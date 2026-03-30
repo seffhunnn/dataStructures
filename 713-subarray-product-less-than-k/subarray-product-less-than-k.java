@@ -7,7 +7,7 @@ class Solution {
         int left = 0;
         int currProd=1;
 
-        for(int right =0;right<nums.length;right++){  //sliding window
+        for(int right =0;right<nums.length;right++){  
             currProd*=nums[right];
 
             while(currProd>=k){
