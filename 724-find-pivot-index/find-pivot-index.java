@@ -5,7 +5,7 @@ class Solution {
         for(int i =0;i<nums.length;i++){
             totalSum += nums[i];
         }
-
+        
         int leftSum = 0;
         int rightSum =0;
         int equi = -1;
